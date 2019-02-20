@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "typeRoots": ["node_modules/@types"],
+    "module": "es6",
+    "moduleResolution": "node"
+  }
+}
