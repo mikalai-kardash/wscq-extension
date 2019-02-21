@@ -2,7 +2,11 @@
   "compilerOptions": {
     "target": "es6",
     "typeRoots": ["node_modules/@types"],
-    "module": "es6",
-    "moduleResolution": "node"
+    "module": "commonjs",
+    "rootDir": "src",
+    "outDir": "dist",
+    "noEmitOnError": true,
+    "sourceMap": false,
+    "noImplicitAny": false
   }
 }
